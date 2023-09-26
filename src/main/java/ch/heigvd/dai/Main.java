@@ -9,7 +9,9 @@ public class Main {
         final int ONE_BYTE = 1;
         final int ONE_KILO_BYTE = 1024;
         final int ONE_MEGA_BYTE = 1000 * 1024 ;
-        final int FIVE_KILO_BYTE = 5 * ONE_KILO_BYTE;
+        final int FIVE_MEGA_BYTE = 5 * ONE_MEGA_BYTE;
+
+        //hello
 
         // Measure the time to write a file (e.g : 1 byte, no buffer and binary file)
 
