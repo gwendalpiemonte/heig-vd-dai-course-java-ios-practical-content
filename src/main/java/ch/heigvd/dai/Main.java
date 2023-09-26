@@ -10,6 +10,7 @@ public class Main {
         final int ONE_KILO_BYTE = 1024;
         final int ONE_MEGA_BYTE = 1000 * 1024 ;
         final int FIVE_MEGA_BYTE = 5 * ONE_MEGA_BYTE;
+        final int TEN_MEGA_BYTE = 10 * ONE_MEGA_BYTE;
 
         //hello
 
