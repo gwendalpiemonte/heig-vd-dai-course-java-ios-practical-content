@@ -6,6 +6,11 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        final int ONE_BYTE = 1;
+        final int ONE_KILO_BYTE = 1024;
+        final int ONE_MEGA_BYTE = 1000 * 1024 ;
+        final int FIVE_KILO_BYTE = 5 * ONE_KILO_BYTE;
+
         // Measure the time to write a file (e.g : 1 byte, no buffer and binary file)
 
         Measure.write("binary_1B.bin", 1, false, Measure.FileType.BINARY);
