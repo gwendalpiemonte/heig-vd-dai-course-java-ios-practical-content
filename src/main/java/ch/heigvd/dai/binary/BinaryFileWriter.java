@@ -10,7 +10,6 @@ public class BinaryFileWriter implements Writable {
     public void write(String filename, int sizeInBytes) throws IOException {
 
         try(FileOutputStream outputStream = new FileOutputStream(filename)){
-
             outputStream.write(new byte[sizeInBytes]);
         }
     }
